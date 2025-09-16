@@ -1,6 +1,7 @@
 # pip install cross-encoder==0.2.3
 from typing import List, Dict
-from cross_encoder import CrossEncoder
+from sentence_transformers import CrossEncoder
+
 
 _model = None
 
